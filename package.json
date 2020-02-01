@@ -1,0 +1,30 @@
+{
+    "name": "alice-search-transport",
+    "version": "0.2.0",
+    "description": "Skill for Yandex Alice to search for the nearest transport",
+    "main": "index.js",
+    "author": "Ruslan Abdullaev <abdullaev.rt@gmail.com>",
+    "contributors": [
+        "Eugene Maslenkov <yujiriwc@gmail.com",
+        "Vasily Krasnov <mykrasnov@gmail.com>",
+        "Ruslan Abdullaev <abdullaev.rt@gmail.com>"
+    ],
+    "scripts": {
+        "test": "./node_modules/jest-cli/bin/jest.js"
+    },
+    "keywords": [
+        "Alice",
+        "skills",
+        "Alisa skills",
+        "Yandex Alisa"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "mongodb": "^3.5.2",
+        "node-fetch": "^2.6.0"
+    },
+    "devDependencies": {
+        "jest": "^25.1.0"
+    }
+}
